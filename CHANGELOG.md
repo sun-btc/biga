@@ -21,3 +21,5 @@
 - 增加 `docs/` Agent 接入指南，覆盖 Claude、Comate、Cursor 和通用 Agent。
 - 增加独立 `DISCLAIMER.md`，明确非投资建议、非荐股、非收益承诺和非自动交易边界。
 - 准备 `v0.1.0` GitHub Release。
+- 增加 `images/biga-hero-v1.png` Demo hero 图片。
+- 增加 `index.html` GitHub Pages landing page。

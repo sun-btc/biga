@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biga - AI Agent Skills for Investment Research</title>
+  <meta name="description" content="Markdown-based AI Agent skills for investment research: value, growth, trend, dividend, cyclical and event-driven strategies." />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #07111f;
+      --panel: rgba(255, 255, 255, 0.08);
+      --panel-border: rgba(255, 255, 255, 0.14);
+      --text: #f4f7fb;
+      --muted: #a9b7ca;
+      --accent: #65d6ff;
+      --accent-2: #9cffc8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(101, 214, 255, 0.20), transparent 32rem),
+        radial-gradient(circle at 85% 10%, rgba(156, 255, 200, 0.12), transparent 28rem),
+        var(--bg);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 72px 0 48px;
+      text-align: center;
+    }
+
+    .hero img {
+      width: min(920px, 100%);
+      border-radius: 24px;
+      border: 1px solid var(--panel-border);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.38);
+      margin-top: 32px;
+    }
+
+    .eyebrow {
+      color: var(--accent-2);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(44px, 8vw, 88px);
+      line-height: 0.95;
+      margin: 18px 0;
+    }
+
+    h2 {
+      font-size: clamp(28px, 4vw, 44px);
+      margin: 0 0 16px;
+    }
+
+    .subtitle {
+      max-width: 820px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 20px;
+    }
+
+    .cta {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 18px;
+      border-radius: 999px;
+      border: 1px solid var(--panel-border);
+      background: var(--panel);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .button.primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #07111f;
+      border: 0;
+    }
+
+    section {
+      padding: 44px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      padding: 22px;
+      background: var(--panel);
+      border: 1px solid var(--panel-border);
+      border-radius: 20px;
+      min-height: 150px;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 19px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    pre {
+      overflow: auto;
+      padding: 18px;
+      border-radius: 16px;
+      background: rgba(0, 0, 0, 0.34);
+      border: 1px solid var(--panel-border);
+      color: #d7e7ff;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 40px 0 64px;
+      color: var(--muted);
+      border-top: 1px solid var(--panel-border);
+    }
+
+    @media (max-width: 760px) {
+      .split {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Markdown-based AI Agent Skills</div>
+        <h1>Biga</h1>
+        <p class="subtitle">
+          Reusable investment research frameworks for value, growth, trend,
+          dividend, cyclical, and event-driven strategies.
+        </p>
+        <div class="cta">
+          <a class="button primary" href="https://github.com/sun-btc/biga">View on GitHub</a>
+          <a class="button" href="README.zh-CN.md">中文 README</a>
+          <a class="button" href="examples/dividend-analysis.md">See examples</a>
+        </div>
+        <img src="images/biga-hero-v1.png" alt="Biga AI Agent skills for investment research" />
+      </div>
+    </section>
+
+    <section>
+      <div class="container split">
+        <div>
+          <h2>What is Biga?</h2>
+          <p class="muted">
+            Biga is a Markdown-native Skill collection for AI Agents. It helps
+            Agents produce structured research logic, verification checklists,
+            risk boundaries, and follow-up questions instead of direct trading conclusions.
+          </p>
+        </div>
+        <pre><code>git clone https://github.com/sun-btc/biga.git</code></pre>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Features</h2>
+        <div class="grid">
+          <div class="card"><h3>Six strategies</h3><p>Value, growth, trend, dividend, cyclical, and event-driven research.</p></div>
+          <div class="card"><h3>Markdown-native</h3><p>No runtime dependency. Easy to read, edit, copy, and integrate.</p></div>
+          <div class="card"><h3>Agent-friendly</h3><p>Works with Claude, Comate, Cursor, and other Markdown-aware Agents.</p></div>
+          <div class="card"><h3>Risk-first</h3><p>Explicit boundaries, verification checklists, and non-advice disclaimers.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Strategy Skills</h2>
+        <div class="grid">
+          <a class="card" href="biga-value-skill/SKILL.md"><h3>Value</h3><p>Fundamentals, cash flow, valuation, value traps.</p></a>
+          <a class="card" href="biga-growth-skill/SKILL.md"><h3>Growth</h3><p>Growth stocks, AI, semiconductors, new energy, innovation themes.</p></a>
+          <a class="card" href="biga-trend-skill/SKILL.md"><h3>Trend</h3><p>Moving averages, breakouts, pullbacks, and stop-loss discipline.</p></a>
+          <a class="card" href="biga-dividend-skill/SKILL.md"><h3>Dividend</h3><p>High-yield stocks, dividend sustainability, income-oriented research.</p></a>
+          <a class="card" href="biga-cyclical-skill/SKILL.md"><h3>Cyclical</h3><p>Commodity cycles, low PE traps, resources, and capacity cycles.</p></a>
+          <a class="card" href="biga-event-skill/SKILL.md"><h3>Event-driven</h3><p>Policy catalysts, restructuring, hot themes, and event risk.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container split">
+        <div>
+          <h2>Examples</h2>
+          <ul>
+            <li><a href="examples/dividend-analysis.md">Dividend stock risk analysis</a></li>
+            <li><a href="examples/growth-stock-checklist.md">Growth stock checklist</a></li>
+            <li><a href="examples/trend-trading-plan.md">Trend trading plan</a></li>
+            <li><a href="examples/cyclical-stock-risk.md">Cyclical stock risk</a></li>
+            <li><a href="examples/event-driven-risk.md">Event-driven risk analysis</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Integration Guides</h2>
+          <ul>
+            <li><a href="docs/use-with-claude.md">Use with Claude</a></li>
+            <li><a href="docs/use-with-comate.md">Use with Comate</a></li>
+            <li><a href="docs/use-with-cursor.md">Use with Cursor</a></li>
+            <li><a href="docs/use-with-other-agents.md">Use with other Agents</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="card">
+          <h2>Disclaimer</h2>
+          <p>
+            Biga is for investment research and investor education only. It does
+            not provide stock recommendations, target prices, trading signals,
+            portfolio management, automated trading, or return guarantees.
+          </p>
+          <a class="button" href="DISCLAIMER.md">Read full disclaimer</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      MIT Licensed · <a href="https://github.com/sun-btc/biga">GitHub</a> ·
+      <a href="README.md">README</a> · <a href="README.zh-CN.md">中文 README</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -10,6 +10,10 @@ Biga turns investment frameworks into reusable AI Agent skills for value, growth
 [![Format: Markdown](https://img.shields.io/badge/Format-Markdown-blue.svg)](#project-scope)
 [![AI Agent Skills](https://img.shields.io/badge/AI%20Agent-Skills-green.svg)](#strategy-skills)
 
+![Biga AI Agent skills for investment research](images/biga-hero-v1.png)
+
+Website: [https://sun-btc.github.io/biga/](https://sun-btc.github.io/biga/)
+
 Biga is designed for investment research, strategy analysis, investor education, and AI Agent skill configuration. Each `biga-*-skill/` directory is an independent Skill package with its own `SKILL.md`.
 
 Biga does not provide stock recommendations, price targets, trading signals, portfolio management, automated trading, or return guarantees. See [DISCLAIMER.md](DISCLAIMER.md) for details.

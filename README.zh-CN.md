@@ -10,6 +10,10 @@ AI Agent 投资研究策略 Skill 集合。
 [![Format: Markdown](https://img.shields.io/badge/Format-Markdown-blue.svg)](#项目定位)
 [![AI Agent Skills](https://img.shields.io/badge/AI%20Agent-Skills-green.svg)](#策略-skill)
 
+![Biga AI Agent 投资研究策略 Skill 集合](images/biga-hero-v1.png)
+
+项目主页：[https://sun-btc.github.io/biga/](https://sun-btc.github.io/biga/)
+
 Biga 面向 A 股投资研究、策略分析、投资者教育和 AI Agent 能力配置场景。项目中的每个 `biga-*-skill/` 目录都是一个独立 Skill 包，包含对应策略的 `SKILL.md`，用于输出研究框架、核验清单、风险提示和分析模板。
 
 Biga 不提供荐股、喊单、目标价、收益承诺或自动交易能力。完整边界请阅读 [免责声明](DISCLAIMER.md)。
