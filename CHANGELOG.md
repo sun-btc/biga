@@ -16,3 +16,8 @@
 - 增加事件驱动和主题投资策略 Skill：`biga-event-skill/SKILL.md`。
 - 增加 MIT License。
 - 增加 GitHub 发布前的 README 展示优化、贡献指南、社区行为准则、issue/PR 模板和 Markdown 校验工作流。
+- 增加英文优先 `README.md` 和中文 `README.zh-CN.md`。
+- 增加 `examples/` 示例库，覆盖股息、成长、趋势、周期和事件驱动场景。
+- 增加 `docs/` Agent 接入指南，覆盖 Claude、Comate、Cursor 和通用 Agent。
+- 增加独立 `DISCLAIMER.md`，明确非投资建议、非荐股、非收益承诺和非自动交易边界。
+- 准备 `v0.1.0` GitHub Release。
