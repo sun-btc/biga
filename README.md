@@ -1,18 +1,20 @@
 # Biga
 
-AI Agent 投资研究策略 Skill 集合。
+Markdown-based AI Agent skills for investment research.
 
-> 把价值投资、成长投资、趋势投资、股息策略、周期投资、事件驱动等研究框架，整理成可直接接入 AI Agent 的 Markdown Skill。
->
-> Turn investment frameworks into reusable Markdown-based AI Agent skills.
+Biga turns investment frameworks into reusable AI Agent skills for value, growth, trend, dividend, cyclical, and event-driven strategies.
+
+中文：Biga 是一个 AI Agent 投资研究策略 Skill 集合，把价值投资、成长投资、趋势投资、股息策略、周期投资、事件驱动等研究框架，整理成可直接接入 AI Agent 的 Markdown Skill。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Format: Markdown](https://img.shields.io/badge/Format-Markdown-blue.svg)](#项目定位)
 [![AI Agent Skills](https://img.shields.io/badge/AI%20Agent-Skills-green.svg)](#策略-skill)
 
-Biga 面向 A 股投资研究、策略分析、投资者教育和 AI Agent 能力配置场景。项目中的每个 `biga-*-skill/` 目录都是一个独立 Skill 包，包含对应策略的 `SKILL.md`，用于输出研究框架、核验清单、风险提示和分析模板。
+Biga is designed for investment research, strategy analysis, investor education, and AI Agent skill configuration. Each `biga-*-skill/` directory is an independent Skill package with its own `SKILL.md`.
 
 Biga 不提供荐股、喊单、目标价、收益承诺或自动交易能力。
+
+If you find Biga useful, consider giving it a star to support the project.
 
 ## Demo
 
@@ -57,19 +59,35 @@ Biga 输出方向：
 - 非荐股导向：强调研究过程，不直接给买卖结论或收益承诺。
 - 面向中文投资研究：覆盖 A 股常见策略、行业主题和投资者教育场景。
 
-## 快速开始
+## Quick Start
 
-### 作为文档阅读
+Clone the repository:
 
-1. 先阅读顶层 [`SKILL.md`](SKILL.md)，判断问题属于哪类策略场景。
-2. 进入对应策略目录，例如 [`biga-value-skill/SKILL.md`](biga-value-skill/SKILL.md)。
-3. 按 Skill 文档中的研究框架、核验清单和风险提示进行分析。
+```bash
+git clone https://github.com/sun-btc/biga.git
+```
 
-### 作为 AI Agent / Skill 使用
+### Read as Markdown
 
-1. 将整个仓库或单个 `biga-*-skill/` 目录加入 AI 编程助手或 Agent 的 Skill 目录。
-2. 让 Agent 根据用户问题选择对应策略 Skill。
-3. 输出时优先使用研究框架、核验清单、风险提示和退出纪律，而不是直接给买卖结论。
+1. Start with the top-level [`SKILL.md`](SKILL.md).
+2. Pick a strategy directory, such as [`biga-value-skill/SKILL.md`](biga-value-skill/SKILL.md).
+3. Use the research framework, checklist, risk notes, and output template in that Skill.
+
+### Use as AI Agent Skills
+
+1. Add the whole repository or a single `biga-*-skill/` directory to your AI assistant's Skill directory.
+2. Ask the Agent to choose the proper strategy Skill based on the user question.
+3. Prefer structured research output, verification checklists, risk boundaries, and exit rules instead of direct buy/sell conclusions.
+
+### Examples
+
+See the [`examples/`](examples/) directory for copyable demo conversations:
+
+- [Dividend stock risk analysis](examples/dividend-analysis.md)
+- [Growth stock checklist](examples/growth-stock-checklist.md)
+- [Trend trading plan](examples/trend-trading-plan.md)
+- [Cyclical stock risk](examples/cyclical-stock-risk.md)
+- [Event-driven risk analysis](examples/event-driven-risk.md)
 
 ## 策略 Skill
 
