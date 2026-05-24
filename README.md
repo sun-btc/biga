@@ -10,7 +10,7 @@ Biga turns investment frameworks into reusable AI Agent skills for value, growth
 [![Format: Markdown](https://img.shields.io/badge/Format-Markdown-blue.svg)](#project-scope)
 [![AI Agent Skills](https://img.shields.io/badge/AI%20Agent-Skills-green.svg)](#strategy-skills)
 
-![Biga AI Agent skills for investment research](images/biga-hero-v1.png)
+![Biga AI Agent skills for investment research](images/biga-logo-social-card-final.png)
 
 Website: [https://sun-btc.github.io/biga/](https://sun-btc.github.io/biga/)
 
